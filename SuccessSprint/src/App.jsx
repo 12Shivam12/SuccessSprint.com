@@ -1,24 +1,24 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Done from "./components/Done";
 import Progress from "./components/Progress";
 import Todo from "./components/Todo";
-import { CiDark } from "react-icons/ci";
-import { useDispatch } from "react-redux";
-import { DARK_MODE } from "./components/redux/actionTypes";
+// import { CiDark } from "react-icons/ci";
+// import { useDispatch } from "react-redux";
+// import { DARK_MODE } from "./components/redux/actionTypes";
 
 export default function App() {
 
-  const [darkmode, setDarkmode] = useState(true);
+  // const [darkmode, setDarkmode] = useState(true);
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
-  const handleDarkMode = () => {
-    setDarkmode(!darkmode);
-    dispatch({
-      type:DARK_MODE,
-      payload:darkmode
-    })
-  }
+  // const handleDarkMode = () => {
+  //   setDarkmode(!darkmode);
+  //   dispatch({
+  //     type:DARK_MODE,
+  //     payload:darkmode
+  //   })
+  // }
 
   return (
 
