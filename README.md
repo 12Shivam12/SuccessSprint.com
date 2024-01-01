@@ -1,4 +1,4 @@
-# SuccessSprint.com
+
 # Todo App with Drag-and-Drop Feature
 
 ## Overview
